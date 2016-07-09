@@ -1,0 +1,33 @@
+{
+  "name": "gulp-plugin-stream-pattern",
+  "version": "0.0.1",
+  "description": "A gulp plugin for demonstrating how to work with vinyl files with contents of object streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Kuu Miyazaki",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "overrides": []
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
