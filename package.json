@@ -2,6 +2,10 @@
   "name": "gulp-plugin-stream-pattern",
   "version": "0.0.1",
   "description": "A gulp plugin for demonstrating how to work with vinyl files with contents of object streams",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kuu/gulp-plugin-stream-pattern.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"
